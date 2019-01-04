@@ -1,0 +1,114 @@
+body{
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #E8E8E8;
+    font-size: 120%;
+	line-height: 1.5;
+}
+h1, h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+.titulo-principal{
+    text-align: center;
+    background-color: #52658F;
+    color: white;
+    padding: 25px;
+    border-bottom: 10px solid #333A56;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+.navegacao-site{
+    text-align: center;
+    background-color: #52658F;
+    color: #F7F5E6;
+}
+.rodape-pagina{
+    background-color: #333A56;
+    color: #F7F5E6;
+    text-align: center;
+    clear: both;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+}
+main a {
+	color: #52658F;
+}
+.navegacao-site a{
+    color:inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+.navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+.container {
+    width: 720px;
+    margin: auto;
+    padding: 30px 0;
+}
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+.subtitulo-texto {
+    font-size: 30px; 
+}
+.icones-redes-sociais li{
+    display: inline-block;
+}
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+.github {
+    background-image: url(../img/github.png);
+}
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+.facebook {
+    background-image: url(../img/facebook.png);
+}
+main{
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
+}
+img, aside {
+    width: 20%;
+    float:right;
+}
+aside{
+    box-sizing: border-box;
+    clear:right;
+    position: relative;
+    top:310px;
+    border-bottom: 10px solid #333A56;
+    border-left: 10px solid #333A56;
+}
+img{
+    width:300px;
+    position: absolute;
+    top:0;
+    right:0;
+    border-bottom: 10px solid #333A56;
+    border-left: 10px solid #333A56;
+}
+.lista-publicacoes{
+    text-align: justify;
+    margin: 20px 0;
+}
